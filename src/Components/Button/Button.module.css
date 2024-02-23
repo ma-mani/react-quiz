@@ -1,0 +1,9 @@
+.category {
+    height: 10rem;
+}
+
+@media (max-width: 500px) {
+    .category {
+        height: 7rem;
+    }
+}

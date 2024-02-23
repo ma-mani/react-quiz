@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.options button {
+    cursor: pointer;
+}
+
+.options button.correct {
+    background-color: green;
+}
+
+.options button.wrong {
+    background-color: red;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+}
